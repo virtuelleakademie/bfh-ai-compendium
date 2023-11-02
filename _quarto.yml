@@ -1,10 +1,24 @@
 project:
   type: book
+  output-dir: docs
 
 book:
-  title: "Bfh-ai-compendium"
-  author: "Norah Jones"
+  title: "BFH Compendium of AI"
+  reader-mode: true
+  author: "Andrew Ellis"
   date: "02/11/2023"
+  page-footer:
+    left: |
+      BFH AI Compendium (v0.1) was written by Andrew Ellis.
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
+  cover-image: cover.png
+  favicon: cover.png
+  site-url: https://virtuelleakademie.github.io/bfh-ai-compendium/
+  repo-url: https://github.com/virtuelleakademie/bfh-ai-compendium/
+  repo-branch: main
+  repo-actions: [edit, issue]
+
   chapters:
     - index.qmd
     - intro.qmd
@@ -18,6 +32,9 @@ format:
     theme: cosmo
   pdf:
     documentclass: scrreprt
+    pdf-engine: lualatex
+  epub:
+    cover-image: cover.png
 
 
 
