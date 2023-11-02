@@ -1,0 +1,2 @@
+# Didaktischer Einsatz
+Die App kann im Unterricht eingesetzt werden, um die Schülerinnen und Schüler mit dem Thema "Kryptographie" vertraut zu machen. Die App kann auch als Grundlage für eine Projektarbeit dienen, in der die Schülerinnen und Schüler die App um weitere Verschlüsselungsverfahren erweitern können.

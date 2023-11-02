@@ -1,0 +1,66 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "BFH AI Compendium",
+    "section": "",
+    "text": "Preface\nThis is a compendium on AI.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "Grundlagen",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.",
+    "crumbs": [
+      "Grundhaltung",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "Bibliography",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\nWei, Jason, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter,\nFei Xia, Ed Chi, Quoc Le, and Denny Zhou. 2023.\n“Chain-of-Thought Prompting Elicits Reasoning in\nLarge Language Models.” January 10, 2023. https://doi.org/10.48550/arXiv.2201.11903.",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "didaktischer-einsatz.html",
+    "href": "didaktischer-einsatz.html",
+    "title": "3  Didaktischer Einsatz",
+    "section": "",
+    "text": "Die App kann im Unterricht eingesetzt werden, um die Schülerinnen und Schüler mit dem Thema “Kryptographie” vertraut zu machen. Die App kann auch als Grundlage für eine Projektarbeit dienen, in der die Schülerinnen und Schüler die App um weitere Verschlüsselungsverfahren erweitern können.",
+    "crumbs": [
+      "Künstliche Intelligenz in der Lehre",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Didaktischer Einsatz</span>"
+    ]
+  },
+  {
+    "objectID": "studentischer-alltag.html",
+    "href": "studentischer-alltag.html",
+    "title": "4  KI im studentischen Alltag",
+    "section": "",
+    "text": "KI darf immer und überall eingesetzt werden (Wei et al. 2023)\n\n\n\n\nWei, Jason, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter, Fei Xia, Ed Chi, Quoc Le, and Denny Zhou. 2023. “Chain-of-Thought Prompting Elicits Reasoning in Large Language Models.” January 10, 2023. https://doi.org/10.48550/arXiv.2201.11903.",
+    "crumbs": [
+      "Künstliche Intelligenz in der Lehre",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>KI im studentischen Alltag</span>"
+    ]
+  }
+]

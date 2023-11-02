@@ -1,11 +1,19 @@
 project:
   type: book
+  preview:
+    port: 8800
+    browser: false
   output-dir: docs
 
 book:
-  title: "BFH Compendium of AI"
+  title: "BFH AI Compendium"
   reader-mode: true
-  author: "Andrew Ellis"
+  author: 
+  - name: Andrew Ellis
+    url: https://github.com/awellis
+    affiliation: Virtuelle Akademie, Berner Fachhochschule
+    affiliation-url: https://virtuelleakademie.ch
+    orcid: 0000-0002-2788-936X
   date: "02/11/2023"
   page-footer:
     left: |
@@ -18,23 +26,54 @@ book:
   repo-url: https://github.com/virtuelleakademie/bfh-ai-compendium/
   repo-branch: main
   repo-actions: [edit, issue]
+  downloads: [pdf, epub]
+  sharing: [twitter, facebook]
 
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
+    - part: "Grundlagen und Haltung"
+      chapters:
+        - intro.qmd
+        - summary.qmd
+    - part: "Künstliche Intelligenz in der Lehre"
+      chapters:
+        - didaktischer-einsatz.qmd
+        - studentischer-alltag.qmd
+    - part: "KI in der Forschung"
+      chapters:
+        - forschung.qmd
     - references.qmd
+  appendices:
+    - tools.qmd
+    - resources.qmd
+    
+comments:
+  hypothesis: true
 
-bibliography: references.bib
+bibliography: [references.bib, bibliography.bib]
 
 format:
   html:
     theme: cosmo
+    css: custom.css
+    backgroundcolor: "#F5F5F5"
   pdf:
     documentclass: scrreprt
     pdf-engine: lualatex
+    include-in-header: 
+      text: |
+        \usepackage{makeidx}
+        \makeindex
+    include-after-body: 
+      text: |
+        \printindex
   epub:
     cover-image: cover.png
 
+execute:
+  cache: true
+  freeze: auto
+  execute-dir: project
 
-
+editor:
+  render-on-save: true
