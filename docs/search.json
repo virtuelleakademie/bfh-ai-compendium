@@ -16,7 +16,7 @@
     "section": "",
     "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
-      "Grundlagen",
+      "Grundlagen und Haltung",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
   },
@@ -27,18 +27,8 @@
     "section": "",
     "text": "In summary, this book has no content whatsoever.",
     "crumbs": [
-      "Grundhaltung",
+      "Grundlagen und Haltung",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
-    ]
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "Bibliography",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\nWei, Jason, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter,\nFei Xia, Ed Chi, Quoc Le, and Denny Zhou. 2023.\n“Chain-of-Thought Prompting Elicits Reasoning in\nLarge Language Models.” January 10, 2023. https://doi.org/10.48550/arXiv.2201.11903.",
-    "crumbs": [
-      "References"
     ]
   },
   {
@@ -61,6 +51,16 @@
     "crumbs": [
       "Künstliche Intelligenz in der Lehre",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>KI im studentischen Alltag</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "Bibliography",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\nWei, Jason, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter,\nFei Xia, Ed Chi, Quoc Le, and Denny Zhou. 2023.\n“Chain-of-Thought Prompting Elicits Reasoning in\nLarge Language Models.” January 10, 2023. https://doi.org/10.48550/arXiv.2201.11903.",
+    "crumbs": [
+      "Bibliography"
     ]
   }
 ]
